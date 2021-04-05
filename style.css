@@ -6,12 +6,6 @@ body {
   font-family: "Trebuchet MS", sans-serif;
 }
 
-p {
-  font-size: 10px;
-  margin-left: 20px;
-  margin-top: auto;
-  margin-bottom: auto;
-}
 
 a:link {
   color: black;
@@ -141,6 +135,17 @@ button {
   border: none;
   border-radius: 3.5px;
   padding: 7px 23px;
+  background: hsl(0, 0, 80);
+}
+
+button:hover {
+  font-size: 12px;
+  cursor: pointer;
+  border: solid;
+  border-color: #b3b3b3;
+  border-width: thin;
+  border-radius: 3.5px;
+  padding: 6px 22px;
   background: hsl(0, 0, 80);
 }
 
