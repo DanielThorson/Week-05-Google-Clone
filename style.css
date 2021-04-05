@@ -77,11 +77,10 @@ a:active {
 
 .microphoneicon {
   position: absolute;
-  right: 20px;
+  right: 30px;
   top: 13px;
   margin: auto;
   display: flex;
-  height: 23px;
   width: 18px;
 }
 
@@ -94,6 +93,18 @@ input {
   width: 470px;
   outline-style: none;
 }
+
+input:hover {
+  border-radius: 30px;
+  border-style: solid;
+  border-width: thin;
+  padding: 14px 80px;
+  border-color: #e6e6e6;
+  box-shadow: 1px 2px 10px #e6e6e6;
+  width: 470px;
+  outline-style: none;
+}
+
 
 .ButtonContainer {
   display: flex;
@@ -121,6 +132,24 @@ button:hover {
   border-color: #b3b3b3;
   border-width: thin;
   border-radius: 3.5px;
-  padding: 6px 22px;
+  padding: 9px 22px;
   background: hsl(0, 0, 80);
 }
+
+.bottombar {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  width: 100%;
+  margin-top: 20.5%;
+}
+
+
+a.link {
+   color: blue;
+}
+/*.grey {
+  color: #a6a6a6;
+}*/
