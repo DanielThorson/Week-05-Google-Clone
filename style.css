@@ -41,12 +41,56 @@ a:active {
   display: inline-block;
   justify-content: center;
   align-content: center;
-
 }
 
 .center {
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
   width: 25%;
+}
+
+.relative {
+  position: relative;
+}
+
+.searchcontainer {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.searchicon {
+  position: absolute;
+  left: -160px;
+  top: 19;
+  margin: auto;
+  display: flex;
+  height: 20px;
+  width: 20px;
+}
+
+.microphoneicon {
+  position: absolute;
+  right: -160px;
+  top: 19px;
+  margin: auto;
+  display: flex;
+  height: 23px;
+  width: 18px;
+}
+
+input {
+  border-radius: 30px;
+  border-style: solid;
+  border-width: thin;
+/*  padding: 14px 80px;*/
+  border-color: #e6e6e6;
+  width: 470px;
+  outline-style: none;
+  height: 50px;
 }
