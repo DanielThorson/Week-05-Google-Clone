@@ -95,4 +95,32 @@ input {
   outline-style: none;
 }
 
+.ButtonContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+}
+
+button {
+  font-size: 12px;
+  color: black;
+  cursor: pointer;
+  border: none;
+  border-radius: 3.5px;
+  padding: 10px 23px;
+  background: hsl(0, 0, 80);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+button:hover {
+  font-size: 12px;
+  cursor: pointer;
+  border: solid;
+  border-color: #b3b3b3;
+  border-width: thin;
+  border-radius: 3.5px;
+  padding: 6px 22px;
+  background: hsl(0, 0, 80);
 }
