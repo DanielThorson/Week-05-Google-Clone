@@ -151,8 +151,11 @@ button {
 input {
   border-radius: 30px;
   border-style: solid;
+  border-width: thin;
   padding: 14px 80px;
+  border-color: #e6e6e6;
   width: 470px;
+  outline-style: none;
 }
 
 
@@ -193,4 +196,9 @@ input {
 
 .darkgrey {
   background-color: rgb(241, 241, 241);
+}
+
+
+a:hover {
+ text-decoration: underline;
 }
