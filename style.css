@@ -44,6 +44,9 @@ a:active {
   margin-bottom: 30px;
 }
 
+.inline {
+   align-items: center;
+}
 .center {
   display: flex;
   justify-content: center;
@@ -70,20 +73,9 @@ a:active {
   height: 25px;
   width: 25px;
   border-radius:1%;
-/*  background-color: ##f2f2f2;*/
   border-color: #e6e6e6;
   box-shadow: 0px 0px 5px  #737373;
 }
-
-.avatar:hover{
-  height: 36px;
-  width: 36px;
-  border-radius:50%;
-  background-color: #737373;
-  border-color: #e6e6e6;
-  box-shadow: 1px 1px 10px  #737373;
-}
-
 
 .searchcontainer {
   display: inline-block;
@@ -105,8 +97,8 @@ a:active {
 
 .microphoneicon {
   position: absolute;
-  right: 30px;
-  top: 13px;
+  right: 33px;
+  top: 14px;
   margin: auto;
   display: flex;
   width: 18px;
