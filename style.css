@@ -1,5 +1,6 @@
 body {
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: arial,sans-serif;
+  font-size: 14px;
   display: flex;
   flex-direction: column;
 }
@@ -72,9 +73,14 @@ a:active {
 .icon1:hover{
   height: 25px;
   width: 25px;
-  border-radius:1%;
+  padding: 5px;
+  border-radius:50%;
   border-color: #e6e6e6;
-  box-shadow: 0px 0px 5px  #737373;
+  background-color: #e6e6e6;
+  position: relative;
+  right: -5px;
+  margin-left: -10px;
+/*  box-shadow: 0px 0px 5px  #737373;*/
 }
 
 .searchcontainer {
@@ -140,7 +146,7 @@ button {
   border: none;
   border-radius: 3.5px;
   padding: 10px 23px;
-  background: hsl(0, 0, 80);
+  background-color: #fafafa;
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -153,7 +159,6 @@ button:hover {
   border-width: thin;
   border-radius: 3.5px;
   padding: 9px 22px;
-  background: hsl(0, 0, 80);
 }
 
 .bottombar {
